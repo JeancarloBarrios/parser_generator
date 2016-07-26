@@ -1,5 +1,6 @@
 #include <iostream>
 #include <string>
+#include <vector>
 #include "../lib/NFA.h"
 
 int main() {
@@ -34,6 +35,15 @@ int main() {
     nfa.add_edge(2, 2, "e");
     std::cout << nfa.get_edge_size() << std::endl;
     std::cout << nfa.get_vertex_size() << std::endl;
+    std::vector<edge> test;
+    test = nfa.get_vertex_edges_dest(nfa.get_vertex(1));
+    if (nfa.vertex_exist(1)){
+        std::cout << "True" << std::endl;
+    }
+    for (int i=0; i<test.size(); i++){
+        std::cout << test[i].symbol << std::endl;
+    }
+
 
     return 0;
 }
