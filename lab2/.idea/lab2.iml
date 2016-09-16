@@ -3,7 +3,16 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/lib/NFA.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/PostFix.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/Thompson.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/PostFix.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/lib/NFA.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/Stack.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/utilities.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/utilities.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/Thompson.cpp" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/Stack.h" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/lib/nfaStructs.h" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main.cpp" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/CMakeLists.txt" isTestSource="false" />
     </content>
@@ -11,15 +20,15 @@
     <orderEntry type="module-library">
       <library name="Header Search Paths">
         <CLASSES>
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include" />
           <root url="file:///usr/include" />
-          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include" />
-          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include-fixed" />
           <root url="file:///usr/local/include" />
         </CLASSES>
         <SOURCES>
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include-fixed" />
+          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.2.1/include" />
           <root url="file:///usr/include" />
-          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include" />
-          <root url="file:///usr/lib/gcc/x86_64-pc-linux-gnu/6.1.1/include-fixed" />
           <root url="file:///usr/local/include" />
         </SOURCES>
       </library>

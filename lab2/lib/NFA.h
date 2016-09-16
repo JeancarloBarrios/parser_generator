@@ -5,19 +5,11 @@
 #ifndef LAB2_NFA_H
 #define LAB2_NFA_H
 
-#include <string>
+
 #include <vector>
+#include "nfaStructs.h"
 
 // TODO A struct comaparison method needs to be created or change to classes
-struct vertex {
-    int state;
-};
-
-struct edge{
-    vertex orig;
-    vertex dest;
-    std::string symbol;
-};
 
 class NFA {
     std::vector<vertex> vertexV;

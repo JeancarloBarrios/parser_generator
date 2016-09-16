@@ -84,12 +84,14 @@ void NFA::add_edge(int origin, int destination, std::string symbol) {
     }
     else {
         orig.state = origin;
+        this->vertexV.push_back(orig);
     }
     if (vertex_exist(destination)) {
         dest = get_vertex(destination);
     }
     else{
         dest.state = destination;
+        this->vertexV.push_back(dest);
     }
 
     edge e;
